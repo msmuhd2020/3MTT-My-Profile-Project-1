@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolution - Cloud Storage</title>
+    <style>
+        /* Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+            color: white;
+            padding: 6rem 1rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background-color: #f59e0b;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: transform 0.3s ease;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+        }
+
+        /* Features Section */
+        .features {
+            padding: 4rem 1rem;
+            background-color: #f8fafc;
+        }
+
+        .features h2 {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: #1e293b;
+        }
+
+        .features-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .feature {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 1rem;
+        }
+
+        .feature h3 {
+            color: #6366f1;
+            margin-bottom: 1rem;
+        }
+
+        /* Footer */
+        footer {
+            background: #1e293b;
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .contact-info {
+            margin-bottom: 1.5rem;
+        }
+
+        .social-links a {
+            color: #f59e0b;
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .features-container {
+                grid-template-columns: 1fr;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero {
+                padding: 4rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <h1>Secure Cloud Storage for Everyone</h1>
+        <p>Store, share, and collaborate on files with enterprise-grade security</p>
+        <a href="#" class="cta-button">Start Free Trial</a>
+    </header>
+
+    <section class="features">
+        <h2>Why Choose Us?</h2>
+        <div class="features-container">
+            <article class="feature">
+                <img src="🔒" alt="Security Shield Icon" aria-hidden="true">
+                <h3>Military-Grade Encryption</h3>
+                <p>Your data is protected with AES-256 encryption, ensuring maximum security.</p>
+            </article>
+            <article class="feature">
+                <img src="🌐" alt="Global Server Icon" aria-hidden="true">
+                <h3>Global Access</h3>
+                <p>Access your files from anywhere with our worldwide server network.</p>
+            </article>
+            <article class="feature">
+                <img src="⚡" alt="Speed Meter Icon" aria-hidden="true">
+                <h3>Lightning Fast Sync</h3>
+                <p>Real-time file synchronization across all your devices.</p>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="contact-info">
+            <p>Contact: support@techsolution.com | (555) 123-4567</p>
+            <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Facebook</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2024 TechSolution. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
